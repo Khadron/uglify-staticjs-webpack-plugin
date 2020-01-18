@@ -1,0 +1,47 @@
+{
+  "name": "uglify-staticjs-webpack-plugin",
+  "version": "1.0.0",
+  "description": "一个简单灵活的Webpack Plugin，用来压缩混淆项目中没后import或require的JavaScript文件，比如项目中的public文件夹",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config ./example/webpack.dev.conf.js",
+    "build": "webpack --config ./example/webpack.prod.conf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khadron/uglify-staticjs-webpack-plugin.git"
+  },
+  "keywords": [
+    "Webpack",
+    "plugin",
+    "uglify"
+  ],
+  "author": "khadron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khadron/uglify-staticjs-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Khadron/uglify-staticjs-webpack-plugin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "uglify-es": "^3.3.9"
+  }
+}
