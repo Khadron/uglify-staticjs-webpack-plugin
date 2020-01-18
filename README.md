@@ -52,3 +52,5 @@ chainWebpack(config) {
 大道至简，只有一个参数：`staticPaths`，指定要压缩混淆的文件和文件夹的路径，它的值为`Array`也就是可以支持多个文件压缩混淆
 **注意：**
 uglify-staticjs-webpack-plugin 操作的根目录为`dist`文件夹，也就是在 webpack 中配置的`output.path`的路径，切记！
+
+**更多详细的内容，请参考`example`文件夹里的内容
